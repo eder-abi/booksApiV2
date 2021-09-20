@@ -3,7 +3,6 @@ const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 const { Router } = require('express');
 const router = Router();
-// const mongodb = require('./sources/mongodb');
 const { sqlite } = require('../api/sources');
 
 // ============================================================================
