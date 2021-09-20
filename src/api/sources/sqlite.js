@@ -1,5 +1,4 @@
 const Database = require('better-sqlite3');
-const { model } = require('mongoose');
 const dbName = "./db/books.db";
 
 const db = new Database(dbName);

@@ -7,21 +7,21 @@ This project requires __docker-compose__ to launch api and database (mongo).
     - `/signup`: To registry a new user.
     - `/signin`: To login with user registed previously and return an access token.
     - `/wishlist`: To create a new wishlist.
-    - `/wishlist/<wishlist-Id>/books`: Add a book to wishlist assigned.
+    - `/wishlist/<wishlist-id>/books`: Add a book to wishlist assigned.
 - **Get Methods**
     - `/books/?title=<title book>^&author=<author>&publisher=<publisher>&key=<google-books-api-key>`: To search a book.
     - `/wishlist`: To retrieve all wishlist created by user.
-    - `/wishlist/<wishlist-Id>`: To retrieve a wishlist and its books created by user.
+    - `/wishlist/<wishlist-id>`: To retrieve a wishlist and its books created by user.
 - **Delete Methods**
-    - `/wishlist/{wishlist-Id}`: Delete a wishlist by user.
-    - `/wishlist/<wishlist-Id>/books/<bookId>`: Delete a book from wishlist by user.
+    - `/wishlist/{wishlist-id}`: Delete a wishlist by user.
+    - `/wishlist/<wishlist-id>/books/<bookId>`: Delete a book from wishlist by user.
 
 ## Running Locally
 
 1. Clone repository:
 
     ```bash
-    git clone https://github.com/eder-abi/booksApi.git 
+    git clone https://github.com/eder-abi/booksApiV2.git 
     ```
 
 2. Build API:
